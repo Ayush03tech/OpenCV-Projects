@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-blank = np.zeros((400,400s), dtype='uint8')
+blank = np.zeros((400,400), dtype='uint8')
 
 rec = cv.rectangle(blank.copy(), (30,30), (370,370), 255, -1)
 cir = cv.circle(blank.copy(), (200, 200), 200, 255, -1)
